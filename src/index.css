@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button {
+  font-size: 1.3rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.component-box {
+  border: 1px solid white;
+  padding: 1rem;
+}
+.component-box .title {
+  font-size: .8rem;
+  color: darkgray;
+  margin: 0;
+}
+.component-box .small {
+  font-size: .8rem;
+  color: darkgray;
+}
